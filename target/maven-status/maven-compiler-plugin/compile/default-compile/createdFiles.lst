@@ -1,0 +1,9 @@
+org\angelica\angerFermaRuna\listeners\RunaListener$1.class
+org\angelica\angerFermaRuna\listeners\RunaListener.class
+org\angelica\angerFermaRuna\commands\RunaCommand.class
+org\angelica\angerFermaRuna\managers\RunaManager.class
+org\angelica\angerFermaRuna\commands\RunaTabCompleter.class
+org\angelica\angerFermaRuna\config\MessageManager.class
+org\angelica\angerFermaRuna\managers\CooldownManager.class
+org\angelica\angerFermaRuna\AngerFermaRuna.class
+org\angelica\angerFermaRuna\config\ConfigManager.class

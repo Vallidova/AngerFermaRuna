@@ -1,0 +1,32 @@
+name: AngerFermaRuna
+version: '1.0-SNAPSHOT'
+main: org.angelica.angerFermaRuna.AngerFermaRuna
+api-version: '1.21'
+author: Vallidova
+description: 'Руна огородника для ускорения роста растений'
+
+commands:
+  afr:
+    description: Основная команда плагина AngerFermaRuna
+    usage: /afr <give> [player]
+    permission: angerfermaruna.admin
+  afr give:
+    description: Выдать руну огородника
+    usage: /afr give [player]
+    permission: angerfermaruna.give
+    
+permissions:
+  angerfermaruna.admin:
+    description: Доступ ко всем командам плагина
+    default: op
+    children:
+      angerfermaruna.give: true
+  angerfermaruna.give:
+    description: Разрешение на выдачу руны
+    default: op
+  angerfermaruna.use:
+    description: Разрешение на использование руны
+    default: true
+  angerfermaruna.bypass:
+    description: Разрешение на обход кулдауна руны
+    default: op
